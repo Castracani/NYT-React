@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box
+};
+
+.jumbotron {
+  background-color: #20315A;
+  color: white;
+  text-align: center;
+};
+
+h1 {
+  font-weight: bolder
+}
