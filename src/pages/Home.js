@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Header from "../components/Header";
 import CardHeader from "../components/CardHeader"
 import CardBody from "../components/CardBody";
@@ -6,8 +6,22 @@ import SearchForm from "../components/SearchForm";
 import SearchResults from "../components/SearchResults";
 import { Col, Row, Container } from "../components/Grid";
 
-const Home = () => (
-  
+class Home extends Component {
+  state = {
+    articles: [],
+    q: "",
+    begin_date: "",
+    end_date: ""
+  }
+
+  handleInputChange = function() {
+    
+  }
+
+
+
+  render() {
+    return (
     <Container>
       <Header>
       <h1>
@@ -40,7 +54,8 @@ const Home = () => (
         </Col>
       </Row>
     </Container>
-
-)
+    )
+  } 
+}
 
 export default Home;
