@@ -1,8 +1,4 @@
-* {
-  box-sizing: border-box
-};
-
-.jumbotron {
+#thumbtacks {
   background-color: #20315A;
   color: white;
   text-align: center;

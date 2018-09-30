@@ -1,19 +1,8 @@
 import React from "react";
-
-
-const styles = {
-  jumbotron: {
-    background: "#20315A",
-    color: "white",
-    textAlign: "center"
-  },
-  h1: {
-    fontWeight: "bolder"
-  }
-};
+import "./Header.css";
 
 const Header = (props) => (
-  <div className="jumbotron" style={styles.jumbotron}>
+  <div className="jumbotron" id="thumbtacks">
     {props.children}
   </div>
 );
