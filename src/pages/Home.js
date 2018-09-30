@@ -15,7 +15,7 @@ class Home extends Component {
   }
 
   handleInputChange = function() {
-    
+
   }
 
 
@@ -25,7 +25,7 @@ class Home extends Component {
     <Container>
       <Header>
       <h1>
-        <i class="fa fa-newspaper-o"></i>  New York Times Article Scraper and Saver
+        <i class="fa fa-newspaper-o"></i>  New York Times Article Search and Saver
       </h1>
       </Header>
       <Row>
